@@ -6,10 +6,13 @@
 [![Platform](https://img.shields.io/cocoapods/p/OffsetCoordinator.svg?style=flat)](https://cocoapods.org/pods/OffsetCoordinator)
 
 ## Example
+![alt tag](https://thumbs.gfycat.com/CluelessInconsequentialCranefly-size_restricted.gif)  [[Youtube]](https://youtu.be/GtFF23LTa84)
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+Swift 4.0, iOS >= 10.0
+Dependence: RxSwift, RxCocoa
 
 ## Installation
 
@@ -20,9 +23,20 @@ it, simply add the following line to your Podfile:
 pod 'OffsetCoordinator'
 ```
 
-## Author
+## Usage
 
-viensaigon, vien.nguyen@saigontechnology.vn
+Create multiple tab viewcontrollers by UIPageViewController or any libs.
+
+```swift
+self.offsetCoordinator = OffsetCoordinator(headerView: self.headerView,
+                                           menuView: self.menuView,
+                                           viewControllers: self.viewControllers)
+```
+
+## Author
+goldmoment, nguyenvanvienqn@gmail.com
+fb/goldmoment
+tw/goldmoment
 
 ## License
 
