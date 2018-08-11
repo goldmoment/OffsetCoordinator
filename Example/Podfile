@@ -2,6 +2,8 @@ use_frameworks!
 
 target 'OffsetCoordinator_Example' do
   pod 'OffsetCoordinator', :path => '../'
+  pod 'SnapKit'
+  pod 'RxGesture'
 
   target 'OffsetCoordinator_Tests' do
     inherit! :search_paths

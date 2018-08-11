@@ -4,15 +4,23 @@ PODS:
     - RxSwift (~> 4.1.1)
   - RxCocoa (4.1.2):
     - RxSwift (~> 4.0)
+  - RxGesture (1.2.1):
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
   - RxSwift (4.1.2)
+  - SnapKit (4.0.0)
 
 DEPENDENCIES:
   - OffsetCoordinator (from `../`)
+  - RxGesture
+  - SnapKit
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - RxCocoa
+    - RxGesture
     - RxSwift
+    - SnapKit
 
 EXTERNAL SOURCES:
   OffsetCoordinator:
@@ -21,8 +29,10 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   OffsetCoordinator: de6bc9652f3112706e1232b66538661c383bf5f9
   RxCocoa: d88ba0f1f6abf040011a9eb4b539324fc426843a
+  RxGesture: c278eb05b187abd47e11e65464ae4de53ab71d95
   RxSwift: e49536837d9901277638493ea537394d4b55f570
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
 
-PODFILE CHECKSUM: e3956bb3c257ce747daabd68ed3744272ec06aaa
+PODFILE CHECKSUM: b3ab61115814b18c1a3c0c639bbda7aba66804d8
 
 COCOAPODS: 1.5.3
